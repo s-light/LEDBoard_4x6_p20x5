@@ -1,4 +1,4 @@
-update=Mo 16 Mär 2020 15:52:24 CET
+update=Mo 16 Mär 2020 20:01:54 CET
 version=1
 last_client=kicad
 [general]
@@ -12,10 +12,6 @@ NetIExt=net
 version=1
 LibDir=
 [eeschema/libraries]
-[SchematicFrame]
-version=1
-[sheetnames]
-1=00000000-0000-0000-0000-00005e6f9274:
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -248,3 +244,7 @@ uViaDrill=0.1
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
+[SchematicFrame]
+version=1
+[sheetnames]
+1=00000000-0000-0000-0000-00005e6fc7e6:
