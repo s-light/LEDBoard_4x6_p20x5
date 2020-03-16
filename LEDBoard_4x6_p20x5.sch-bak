@@ -1,0 +1,65 @@
+EESchema Schematic File Version 5
+EELAYER 32 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "LEDBoard_4x6_p20x5"
+Date "2020-03-16"
+Rev "0.1"
+Comp "s-light.eu - Stefan Krüger"
+Comment1 "CC BY-SA"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+Comment5 ""
+Comment6 ""
+Comment7 ""
+Comment8 ""
+Comment9 ""
+$EndDescr
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 5E77BD83
+P 6500 4300
+F 0 "#FLG?" H 6500 4375 50  0001 C CNN
+F 1 "PWR_FLAG" H 6500 4100 50  0000 C CNN
+F 2 "" H 6500 4300 50  0001 C CNN
+F 3 "~" H 6500 4300 50  0001 C CNN
+	1    6500 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5E77B048
+P 6100 4300
+F 0 "#PWR?" H 6100 4150 50  0001 C CNN
+F 1 "+5V" H 6150 4100 50  0000 C CNN
+F 2 "" H 6100 4300 50  0001 C CNN
+F 3 "" H 6100 4300 50  0001 C CNN
+	1    6100 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E77B42E
+P 5400 4700
+F 0 "#PWR?" H 5400 4450 50  0001 C CNN
+F 1 "GND" H 5450 4900 50  0000 C CNN
+F 2 "" H 5400 4700 50  0001 C CNN
+F 3 "" H 5400 4700 50  0001 C CNN
+	1    5400 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E77C47B
+P 5900 4900
+F 0 "C?" H 6050 4850 50  0000 L CNN
+F 1 "100n" H 6050 4900 50  0000 L CNN
+F 2 "" H 5938 4750 50  0001 C CNN
+F 3 "~" H 5900 4900 50  0001 C CNN
+	1    5900 4900
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
