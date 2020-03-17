@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "VCC_LED")(type "Legacy")(uri "${KIPRJMOD}/parts/VCC_LED.lib")(options "")(descr ""))
+  (lib (name "power_additions")(type "Legacy")(uri "${KIPRJMOD}/parts/power_additions.lib")(options "")(descr ""))
+)
