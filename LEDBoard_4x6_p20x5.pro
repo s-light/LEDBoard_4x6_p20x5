@@ -1,4 +1,4 @@
-update=Fr 20 Mär 2020 21:37:42 CET
+update=Sa 21 Mär 2020 09:32:16 CET
 version=1
 last_client=kicad
 [general]
@@ -15,8 +15,6 @@ LibDir=
 [ModEditFrame]
 version=1
 [LibeditFrame]
-version=1
-[SchematicFrame]
 version=1
 [sheetnames]
 1=00000000-0000-0000-0000-00005e72aacc:
@@ -289,3 +287,5 @@ uViaDrill=0.1
 dPairWidth=0.1
 dPairGap=0.2
 dPairViaGap=0.25
+[SchematicFrame]
+version=1

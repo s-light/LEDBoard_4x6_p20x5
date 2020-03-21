@@ -14,9 +14,10 @@
 
 ## Project-Status
 WIP
-- [ ] design schematics
+- [x] design schematics
 - [ ] layout pcb
 - [ ] order pcbs
+- [ ] order parts
 - [ ] solder boards
 - [ ] test
 - [ ] update documentation
@@ -31,10 +32,12 @@ TODO: Add Ordering
 <!--
 | X/Y   | 0        | 1        | 2        | 3        |
 | :---- | :------- | :------- | :------- | :------- |
-| **0** | IC1 LED1 | IC1 LED2 | IC2 LED1 | IC2 LED2 |
-| **1** | IC1 LED3 | IC1 LED4 | IC2 LED3 | IC2 LED4 |
-| **2** | IC3 LED1 | IC3 LED2 | IC4 LED1 | IC4 LED2 |
-| **3** | IC3 LED3 | IC3 LED4 | IC4 LED3 | IC4 LED4 |
+| **0** | IC1 LED1 | IC1 LED2 | IC4 LED1 | IC4 LED2 |
+| **1** | IC1 LED3 | IC1 LED4 | IC4 LED3 | IC4 LED4 |
+| **2** | IC2 LED1 | IC2 LED2 | IC5 LED1 | IC5 LED2 |
+| **3** | IC2 LED3 | IC2 LED4 | IC5 LED3 | IC5 LED4 |
+| **4** | IC3 LED1 | IC3 LED2 | IC6 LED1 | IC6 LED2 |
+| **5** | IC3 LED3 | IC3 LED4 | IC6 LED3 | IC6 LED4 |
 
 example for c++ / arduino
 ```c++
