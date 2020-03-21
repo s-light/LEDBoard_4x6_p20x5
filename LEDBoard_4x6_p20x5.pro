@@ -1,4 +1,4 @@
-update=Sa 21 Mär 2020 09:32:16 CET
+update=Sa 21 Mär 2020 12:40:45 CET
 version=1
 last_client=kicad
 [general]
@@ -18,6 +18,8 @@ version=1
 version=1
 [sheetnames]
 1=00000000-0000-0000-0000-00005e72aacc:
+[SchematicFrame]
+version=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -287,5 +289,3 @@ uViaDrill=0.1
 dPairWidth=0.1
 dPairGap=0.2
 dPairViaGap=0.25
-[SchematicFrame]
-version=1
