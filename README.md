@@ -5,7 +5,8 @@
 # LEDBoard_4x6_p20x5
 
 ![LED-Board 3d rendering](./export/LEDBoard_4x6_p20x5.png)
-![LED-Board 3d rendering](./export/LEDBoard_4x6_p20x5-brd.svg)
+![LED-Board 3d rendering](./export/LEDBoard_4x6_p20x5-brd__mod.svg)
+
 
 - LEDBoard with 4x6 LEDs
 - pixel pitch: 20mm x 5mm
@@ -29,7 +30,7 @@ every controller chip has 12 ConstantCurrent outputs. so every LED is controllab
 
 you need to create a mapping to linearize the order:  
 
-TODO: Add Ordering
+TODO: Add channel order information
 <!--
 | X/Y   | 0        | 1        | 2        | 3        |
 | :---- | :------- | :------- | :------- | :------- |
