@@ -5,6 +5,7 @@
 # LEDBoard_4x6_p20x5
 
 ![LED-Board 3d rendering](./export/LEDBoard_4x6_p20x5.png)
+![LED-Board 3d rendering](./export/LEDBoard_4x6_p20x5-brd.svg)
 
 - LEDBoard with 4x6 LEDs
 - pixel pitch: 20mm x 5mm
@@ -15,7 +16,7 @@
 ## Project-Status
 WIP
 - [x] design schematics
-- [ ] layout pcb
+- [x] layout pcb
 - [ ] order pcbs
 - [ ] order parts
 - [ ] solder boards

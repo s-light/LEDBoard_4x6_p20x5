@@ -1,4 +1,4 @@
-update=Sa 21 Mär 2020 12:40:45 CET
+update=So 22 Mär 2020 11:14:53 CET
 version=1
 last_client=kicad
 [general]
@@ -12,19 +12,21 @@ NetIExt=net
 version=1
 LibDir=
 [eeschema/libraries]
-[ModEditFrame]
-version=1
 [LibeditFrame]
 version=1
 [sheetnames]
 1=00000000-0000-0000-0000-00005e72aacc:
 [SchematicFrame]
 version=1
+[ModEditFrame]
+version=1
+[PcbFrame]
+version=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
 LastNetListRead=
-LastSTEPExportPath=
+LastSTEPExportPath=export/LEDBoard_4x6_p20x5.step
 LastIDFExportPath=
 LastVRMLExportPath=
 LastSpecctraDSNExportPath=
