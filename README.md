@@ -13,6 +13,29 @@
 - LED: [Rohm MSL0402RGB](https://www.rohm.com/datasheet/MSL0402RGBU) (1.8x1.6x0.5mm RGB)
 - Driver: [TI TLC5971](http://www.ti.com/product/TLC5971) (16bit dimming, constant current driver)
 
+<br>
+
+<br>
+
+<br>
+
+---
+
+<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
+
+- [LEDBoard_4x6_p20x5](#ledboard4x6p20x5)
+	- [Project-Status](#project-status)
+	- [Technical Information](#technical-information)
+		- [mapping](#mapping)
+			- [c++ / arduino](#c-arduino)
+		- [HW](#hw)
+		- [controlling](#controlling)
+	- [License](#license)
+
+<!-- /TOC -->
+
+---
+<br>
 
 ## Project-Status
 WIP
@@ -26,8 +49,10 @@ WIP
 
 ## Technical Information
 there are groups of 4 LEDs that are controlled by one TLC5971.  
-every controller chip has 12 ConstantCurrent outputs. so every LED is controllable individual.
+every controller chip has 12 ConstantCurrent outputs.
+so every LED is controllable individual.
 
+### mapping
 you need to create a mapping to linearize the order:  
 
 TODO: test & check if this table is correct
@@ -40,8 +65,6 @@ TODO: test & check if this table is correct
 | **3** | IC2 LED3 | IC2 LED4 | IC5 LED3 | IC5 LED4 |
 | **4** | IC3 LED1 | IC3 LED2 | IC6 LED1 | IC6 LED2 |
 | **5** | IC3 LED3 | IC3 LED4 | IC6 LED3 | IC6 LED4 |
-
-### example mapping
 
 #### c++ / arduino
 ```c++
@@ -81,7 +104,7 @@ for other things have a look at [LEDBoard_4x4_16bit](https://github.com/s-light/
 
 ---
 
-# License
+## License
 <!-- license info -->
 <p>
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
