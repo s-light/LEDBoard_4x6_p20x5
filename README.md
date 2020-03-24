@@ -30,9 +30,9 @@ every controller chip has 12 ConstantCurrent outputs. so every LED is controllab
 
 you need to create a mapping to linearize the order:  
 
-TODO: Add channel order information
-<!--
-| X/Y   | 0        | 1        | 2        | 3        |
+TODO: test & check if this table is correct
+
+|       | 0        | 1        | 2        | 3        |
 | :---- | :------- | :------- | :------- | :------- |
 | **0** | IC1 LED1 | IC1 LED2 | IC4 LED1 | IC4 LED2 |
 | **1** | IC1 LED3 | IC1 LED4 | IC4 LED3 | IC4 LED4 |
@@ -41,13 +41,29 @@ TODO: Add channel order information
 | **4** | IC3 LED1 | IC3 LED2 | IC6 LED1 | IC6 LED2 |
 | **5** | IC3 LED3 | IC3 LED4 | IC6 LED3 | IC6 LED4 |
 
-example for c++ / arduino
+### example mapping
+
+#### c++ / arduino
 ```c++
 const uint8_t channel_position_map[4][4] = {
-    { 0,  1,  4,  5},
-    { 2,  3,  6,  7},
-    { 8,  9, 12, 13},
-    {10, 11, 14, 15},
+    { 0,  1, 12, 13},
+    { 2,  3, 14, 15},
+    { 4,  5, 16, 17},
+    { 6,  7, 18, 19},
+    { 8,  9, 20, 21},
+    {10, 11, 22, 23},
+};
+```
+
+<!-- #### CircuitPython
+```python
+channel_position_map[4][4] = {
+    { 0,  1, 12, 13},
+    { 2,  3, 14, 15},
+    { 4,  5, 16, 17},
+    { 6,  7, 18, 19},
+    { 8,  9, 20, 21},
+    {10, 11, 22, 23},
 };
 ``` -->
 
